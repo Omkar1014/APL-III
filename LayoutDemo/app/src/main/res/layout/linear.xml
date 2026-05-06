@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#F5F7FA"
+    android:padding="24dp">
+
+
+    <!-- Title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Registration"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#222222"
+        android:layout_marginBottom="20dp" />
+
+
+    <!-- Card Layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:background="#FFFFFF"
+        android:elevation="6dp">
+
+
+        <!-- Name Field -->
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Your Name"
+            android:padding="12dp"
+            android:background="@android:drawable/edit_text"
+            android:layout_marginBottom="15dp" />
+
+
+        <!-- Email Field -->
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Your Email"
+            android:padding="12dp"
+            android:inputType="textEmailAddress"
+            android:background="@android:drawable/edit_text"
+            android:layout_marginBottom="20dp" />
+
+
+        <!-- Submit Button -->
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:backgroundTint="#3F51B5"
+            android:textColor="#FFFFFF"
+            android:padding="12dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

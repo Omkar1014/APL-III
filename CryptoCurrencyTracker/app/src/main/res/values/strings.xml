@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Demo</string>
+    <string-array name="currency_options">
+        <item>USD</item>
+        <item>INR</item>
+        <item>EUR</item>
+        <item>GBP</item>
+    </string-array>
+
+</resources>

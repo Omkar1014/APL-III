@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#F5F7FA"
+    android:padding="16dp">
+
+    <!-- App Title -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Layout Demo App"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:background="#3F51B5"
+        android:gravity="center"
+        android:padding="14dp"
+        android:layout_marginBottom="32dp"/>
+
+    <Button
+        android:id="@+id/btnList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Layouts in ListView"
+        android:backgroundTint="#607D8B"
+        android:textColor="#FFFFFF"
+        android:padding="16dp"
+        android:textSize="18sp"/>
+
+</LinearLayout>
